@@ -1,4 +1,4 @@
-﻿using ASSIGNMENT_2_OOP.Encapsolation;
+﻿using ASSIGNMENT_2_OOP.Inheritance;
 
 namespace ASSIGNMENT_2_OOP
 {
@@ -29,7 +29,7 @@ namespace ASSIGNMENT_2_OOP
 
             //p1.add_newnumber("ali", 999);
             //person_number = p1.GetPhonenumber("ali");
-            
+
             //Console.WriteLine(person_number == -1 ? "person is not found" : person_number );
 
             //Console.WriteLine(p1["ali"]);
@@ -40,6 +40,25 @@ namespace ASSIGNMENT_2_OOP
             //{
             //    Console.WriteLine(p1[i]);
             //}
+            #endregion
+
+            #region class
+            //Car car = new Car();
+            //Car car = new Car(1);
+            //Car car2 = new Car(10,"Bmw");
+            //Car car = new Car(1,"BMW",5000);
+            //Console.WriteLine(car);
+            //Console.WriteLine("----------------");
+            //Console.WriteLine(car2);
+            #endregion
+
+            #region inheritance 
+            //Parent p = new Parent(1,2);
+            //Console.WriteLine(p);
+            //Console.WriteLine(p.product());
+            //Child c = new Child(3,4, 5);
+            //Console.WriteLine(c);
+            //Console.WriteLine(c.product());
             #endregion
 
         }
